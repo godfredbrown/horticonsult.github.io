@@ -1,0 +1,91 @@
+*
+ {
+	 margin: 0;
+	 padding: 0;
+ }
+ header
+ {
+	 background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(Greenhouse1.jpg);
+	 height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+ }
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-display: cursive;
+    font-size: 20px;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+  width: 150px;
+  height: auto;
+    float: left;
+}
+
+.image1
+{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 120px;
+    border: 1px solid white;
+}
+
+.image2 
+{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 730px;
+	animation-delay: 0.5s;
+    border: 1px solid white;
+}
+
+.image3
+{
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 120px;
+	animation-delay: 1s;
+    border: 1px solid white;
+}
+
+.image4 
+{
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 730px;
+	animation-delay: 1.5s;
+    border: 1px solid white;
+}
+
+h8
+{
+	position: absolute;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 200px;
+	color: white;
+}
