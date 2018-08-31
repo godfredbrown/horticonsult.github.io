@@ -1,6 +1,8 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Horti Consult</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="animate.css">
 <style>
@@ -51,10 +53,10 @@ function carousel() {
 <header>
 		<div class="row">
             <div class="logo">
-            <img src="iast.jpg">
+            <img src="iast.png">
             </div>
         </div>
-        
+    
         <div class="container lightSpeedIn animated">
             <div class="welcome fadeIn animated">
             <h2>WELCOME TO HORTI CONSULT</h2>  
@@ -87,7 +89,16 @@ function carousel() {
         <div class="pic1 ZoomInDown animated">
         <ul class="main-nav bounce animated">
 		  <li class="active"><a href="">HOME</a> </li>
-          <li><a href="SERVICES.html">SERVICES</a> </li>
+         <div class="dropdown">
+            <li><a href="SERVICES.html">SERVICES</a> </li>
+      <i class="fa fa-caret-down"></i>
+    <div class="dropdown-content">
+      <a href="SERVICES.html">HORTICULTURAL SERVICES</a>
+      <a href="SERVICES.html">TRAINING</a>
+      <a href="SERVICES.html">GREENHOUSE AND NETHOUSE</a>
+      <a href="SERVICES.html">PROVISION OF AGRO-INPUT</a>
+    </div>
+  </div>  
 		  <li><a href="about.html">ABOUT</a> </li>
 		  <li><a href="CONTACT%20US.html">CONTACT US</a> </li>
         </ul>
@@ -96,6 +107,11 @@ function carousel() {
             width= "450"; height= "180"> </a> </li>
         </div>
         
+    
+   
+   
+    
+    
     </header>
 
     </body>

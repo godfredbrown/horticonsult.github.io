@@ -2,6 +2,8 @@
 <html>
 <head>
 <title>Horti Consult</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="SERVICES.CSS" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="animate.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,11 +80,14 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-/*.dot {
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 -590px;
+  margin-left: 600px;
+  margin-bottom: -530px;
+
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -91,8 +96,8 @@ img {vertical-align: middle;}
 
 .active, .dot:hover {
   background-color: #717171;
-}*/
-
+}   
+    
 /* Fading animation
 .fade {
   -webkit-animation-name: fade;
@@ -151,7 +156,7 @@ img {vertical-align: middle;}
 </div>
 <br>
 
-<div style="text-align:center">
+<div style="free">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span>
@@ -189,7 +194,7 @@ function showSlides(n) {
     
 <div class="pic1">
         <img src="image1.jpeg"
-            width= "200"; height= "100">
+            width= "200"; height= "100";>
         </div>
 <div class="pic2">
         <img src="image2.jpg"
@@ -210,8 +215,8 @@ function showSlides(n) {
 <div class="pic6">
         <img src="image6.jpg"
             width= "200"; height= "120">
-        </div>
-        
+        </div>   
+    
     </header> 
 </body>
 </html> 
