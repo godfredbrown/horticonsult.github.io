@@ -51,6 +51,14 @@
     float: left;
 }
 
+mySlides
+{
+    position: absolute;
+    animation-delay: 1s;
+    margin-top: 320px;
+    margin-left: 100px;
+    }
+
 body
 {
     font-family: monospace;
@@ -185,7 +193,7 @@ h3
     animation-delay: 0.5s;
 }
 
-.pic
+/*.pic
 {
     position: absolute;
     animation-delay: 1s
@@ -196,7 +204,7 @@ h3
     border: 1px solid white;
     margin-top: 320px;
     margin-left: 100px;
-}
+}*/
 
 .des
 {
@@ -211,7 +219,7 @@ h4
     font-weight: lighter;
     position: absolute;
     margin-top: 510px;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 .des1
@@ -222,15 +230,12 @@ h4
 .pic1
 {
     position: absolute;
-    animation-delay: 1s;
-	
 }
 
 .pic1 img
 {
     margin-top: 280px;
-    margin-left: 600px;
-	animation-duration: 3s;
+    margin-left: 650px;
 }
 
 h5
@@ -241,7 +246,7 @@ h5
     font-weight: lighter;
     position: absolute;
     margin-top: 510px;
-    margin-left: 680px;
+    margin-left: 720px;
 }
 
 .dropbtn
@@ -293,4 +298,7 @@ h5
 }
 
 
-}
+
+
+
+
